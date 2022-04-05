@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.left-container {
+    position: relative;
+    text-align: center;
+}
+
+.fit_screen {
+    max-height: 100vh;
+}
+
+.name-container {
+    display: flex;
+    position: inherit;
+    width: 250px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    max-width: 100;
+    opacity: 0.5;
+}
+
+.logo-text {
+    margin-top: 5.5px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 25px;
+    column-gap: 25px;
+}
